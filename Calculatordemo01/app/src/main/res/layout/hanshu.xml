@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="top">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:gravity="center"
+            android:hint="这是一个输入框"
+            android:textColor="#B3EDC0"
+            android:textSize="30sp" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center|top"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/log"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:background="@drawable/buttonbackground"
+            android:text="log"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/pingfang"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_row="0"
+            android:background="@drawable/buttonbackground"
+            android:text="x²"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/sancifang"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:text="x³"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btndel"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:text="←"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:text="cos"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="2"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="3"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+
+        <Button
+            android:id="@+id/sin"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:background="@drawable/buttonbackground"
+            android:text="sin"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="4"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="5"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="6"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/tan"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:text="tan"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="7"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="8"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="9"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+
+
+        <Button
+            android:id="@+id/fuhao"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_gravity="center"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:text="0"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/buttonbackground"
+            />
+
+        <Button
+            android:id="@+id/btndot"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnequ"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_row="0"
+            android:layout_columnSpan="1"
+            android:background="@drawable/buttonbackground"
+            android:text="="
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:text="Made BY CYP" />
+
+
+        <Space />
+
+
+    </GridLayout>
+
+
+</GridLayout>

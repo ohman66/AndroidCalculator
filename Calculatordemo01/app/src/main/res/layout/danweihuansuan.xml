@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <GridLayout
+        android:layout_gravity="center"
+        android:columnCount="1"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="单位换算"
+            android:textSize="30sp" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_gravity="center|top"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:columnCount="2"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/changdu"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="重量换算"
+            android:background="@drawable/buttonbackground"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/zhongliang"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="长度换算"
+            android:background="@drawable/buttonbackground"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/mianjii"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="面积换算"
+            android:background="@drawable/buttonbackground"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/tiji"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="体积换算"
+            android:background="@drawable/buttonbackground"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/shijian"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="时间换算"
+            android:background="@drawable/buttonbackground"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/reliang"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="汇率转换"
+            android:background="@drawable/buttonbackground"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:text="Made BY CYP"/>
+
+    </GridLayout>
+
+</GridLayout>

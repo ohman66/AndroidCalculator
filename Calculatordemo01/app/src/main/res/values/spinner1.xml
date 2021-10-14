@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spChangdu">
+        <item>km</item>
+        <item>m</item>
+        <item>dm</item>
+        <item>cm</item>
+        <item>mm</item>
+        <item>um</item>
+        <item>nm</item>
+        <item>pm</item>
+    </string-array>
+    <string-array name="spZhongliang">
+        <item>kg</item>
+        <item>g</item>
+        <item>mg</item>
+        <item>t</item>
+    </string-array>
+    <string-array name="spJinzhi">
+        <item>二进制</item>
+        <item>八进制</item>
+        <item>十进制</item>
+        <item>十六进制</item>
+    </string-array>
+    <string-array name="spHuilv">
+        <item>人民币</item>
+        <item>美元</item>
+        <item>比特币</item>
+        <item>英镑</item>
+    </string-array>
+</resources>
